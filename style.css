@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+body {
+    margin: 0;
+}
+
+nav {
+    height: 90px;
+}
+
+.container-fluid {
+    margin-top: 26px;
+}
+
+nav img {
+    width: 75px;
+}
+
+nav .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logos h1 {
+    font-family: "Madimi One", sans-serif;
+}
+
+nav .List ul {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Acc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Acc img {
+    width: 65px;
+    cursor: pointer;
+}
+
+nav .List h2 {
+    font-size: 20px;
+    font-family: "Capriola", sans-serif;
+    cursor: pointer;
+    &:hover {
+        color: #5191FA;
+    }
+}
+
+nav .List #Home {
+    color: #5191FA;
+}
+
+.BG img {
+    width: 100%;
+    height: 600px;
+}
+
+.desc {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    top: 300px;
+    font-family: "Capriola", sans-serif;
+    font-weight: bolder;
+    gap: 15px;
+}
+
+.desc h2 {
+    font-size: 50px;
+}
+
+.desc h3 {
+    font-size: 20px;
+}
+
+.desc button {
+    border: none;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(136, 129, 230);
+    color: white;
+    font-size: 15px;
+}
+
+.cities img {
+    border-radius: 5px;
+}
+
+.zoomable {
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.zoomable img {
+    transition: transform 1s ease;
+}
+
+.zoomable:hover img {
+    transform: scale(1.2);
+}
+
+.cities h1 {
+    font-family: "Capriola", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 35px;
+    color: black;
+}
+
+.info {
+    display: flex;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    font-family: "Capriola", sans-serif;
+    font-weight: bolder;
+}
+
+.info button {
+    border: none;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(136, 129, 230);
+    color: white;
+    font-size: 15px;
+}
+
+.trip {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trip:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.trip img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.trip_section {
+    width: 100%;
+    font-family: "Capriola", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 35px;
+    color: black;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.trip ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.info_trip {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.info_trip img {
+    width: 25px;
+}
+
+.review ul {
+    gap: 4px;
+}
+
+.review img {
+    width: 15px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 199, 199);
+    height: 200px;
+    font-family: "Capriola", sans-serif;
+    font-weight: bolder;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.input {
+    width: 50%;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.input button {
+    border: none;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    height: 50px;
+    color: #fff;
+    background-color: #5191FA;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.pic img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: gray;
+}
+
+@media (max-width:820px) {
+    .List ul h2 {
+        font-size: 15px;
+    }
+    .List ul {
+        gap: 12px;
+    }
+    .Acc img {
+        width: 55px;
+    }
+}
